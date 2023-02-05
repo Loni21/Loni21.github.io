@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif !important;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.884);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+body{
+    background: hsl(0, 0%, 98%);
+    height: 100vh !important;
+}
+
+nav{
+    background: hsl(0, 0%, 98%) !important;
+}
+nav li{
+    cursor:  pointer !important;
+}
+
+nav li a{
+    color: hsl(0, 0%, 41%) !important;
+}
+nav li a:hover{
+    color: hsl(0, 0%, 8%) !important;
+}
+.logo-font-size{
+    font-size: 2.5rem !important;
+}
+
+.dropdown-menu{
+    border: none !important;
+    border-radius: 10px !important;
+    box-shadow: 1px 1px 20px silver, -1px -1px 20px silver !important;
+}
+
+form{
+    width: 20% !important;
+}
+form button:hover{
+    background: hsl(0, 0%, 8%) !important;
+    color: #ffff !important;
+}
+
+.navbar-nav{
+    margin-left: 1rem !important;
+}
+
+.ml-3{
+    margin-left: 2rem;
+    border-color: hsl(0, 0%, 8%) !important;
+    color: hsl(0, 0%, 8%) !important;
+}
+
+
+.A-Rr__homepage-section{
+    display: flex;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    height: 90vh;
+    padding: 60px;
+    padding-left: 150px;
+}
+
+header h1{
+    font-size: 90px;
+}
+
+header h4, header button, .container-svg{
+    margin-top: 2rem;
+}
+
+header h4{
+    width: 80%;
+}
+
+header button{
+    width: 30% !important;
+    height: 7vh !important;
+    border-radius: 15px !important;
+}
+
+header button:hover{
+    background:hsla(0, 0%, 100%, 0) !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    color: hsl(0, 0%, 8%) !important;
+    border-color: hsl(0, 0%, 8%) !important;
+}
+.A-Rr__homepage-section img{
+    width: 35%;
+    padding: 50px;
+    height: 90vh;
+}
+
+.container-svg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+
+section.A-Rr__login{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.A-Rr__login form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px silver, -2px -2px 5px gray;
+}
+
+.A-Rr__login form input, .A-Rr__search input{
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    padding: 5px;
+    background: none;
+}
+
+.form-group{
+    padding: 10px;
+}
+
+.A-Rr__login form button{
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.884);
+}
+
+section.A-Rr__table, section.A-Rr__search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.A-Rr__table table{
+    width: 70%;
+}
+
+.A-Rr__search form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.A-Rr__search input, .A-Rr__search button, .A-Rr__search p{
+    margin: 10px;
+}
+
+.A-Rr__search button{
+    background: rgba(0, 0, 0, 0.884);
+    color:  white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+@media only screen and (max-width:414px){
+    section.homepage-section{
+        flex-direction: column-reverse;
+    }
+
+    header{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .container-h1{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1.remote{
+        margin-left: 0.5rem;
+    }
+
+    header h1{
+        text-align: center;
+        font-size: 33px;
+    }
+
+    header h4{
+        text-align: center;
+    }
+
+    header button{
+        width: 50% !important;
+    }
+
+    .homepage-section img{
+        height: 50vh !important;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .container-svg{
+        width: 100%;
+    }
+
+    .container-svg svg{
+        font-size: 30rem;
+        margin-left: 1rem;
+    }
+} 
